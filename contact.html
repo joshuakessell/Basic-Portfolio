@@ -5,13 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
-    <title>Contact Joshua</title>
+    <title>Joshua Kessell | Contact</title>
 
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
 
 </head>
 <body>
-    
+    <!-- Header is the container for the top nav bar. -->
+    <div class="navContainer">
+        <div class="top">
+            <!-- Top bar consisting of my name and links to the rest of the portfolio. -->
+            <span class="name"><a href="index.html">Joshua Kessell</a></span>
+            <span class="links"><a href="contact.html">Contact</a></span>
+            <span class="links"><a href="portfolio.html">Portfolio</a></span>
+            <span class="links"><a href="index.html">About</a></span>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <h1>Contact</h1>
+        <hr>
+        <div class="container">
+                <form action="action_page.php">
+              
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name...">
+              
+                  <label for="email">Email Address</label>
+                  <input type="text" id="email" name="address" placeholder="Your email...">
+              
+                  <label for="subject">Message</label>
+                  <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+              </div>
+    </div>
+
+    <div class="footer">
+        Copyright © 2018
+    </div>
+
 </body>
 </html>
