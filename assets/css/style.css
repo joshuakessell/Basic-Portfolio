@@ -1,10 +1,10 @@
 .navContainer {
     width: 100%;
     height: 82px;
-    background-color: white;
-    vertical-align: middle;
+    background-image: url(../images/white-pattern.png);
+    background-repeat: repeat;
     border: solid;
-    border-bottom-color: teal;
+    border-bottom-color: khaki;
     border-width: 0px;
     border-bottom-width: 2px;   
 }
@@ -18,75 +18,133 @@
 
 .name {
     float: left;
-    background-color: teal;
+    background-color: white;
     color: white;
     font-size: 24px;
-    padding: 30px;
-    font-weight: bold;
+    padding: 10px;
+    margin: 20px;
+    font-weight: bolder;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
 }
 
 .links {
     float: right;
     font-size: 18px;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: white;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
 }
 
 body {
-    background-image: url(../images/background.jpg);
+    background-image: url(../images/dark_wood.png);
     background-repeat: repeat;
+}
+
+p, h1, h2 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 .wrapper {
     background-color: white;
+    height:400px;
     line-height: 24px;
     width: 920px;
     margin: 20px auto;
-    padding: 20px;
+    padding: 20px;  
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 h1 {
     font-size: 24px;
-    color: teal;
+    color: darkblue;
     font-weight: bold;
 }
 
-img {
+.label {
     position: relative;
+    bottom: 12px;
+    right: 98px;
+    width: 10px;
+    height: 20px;
+    background-color: black;
+    color: white;
+    padding: 5px 28px 5px 15px;
+}
+
+.row{
+    margin: 20px auto;
+}
+
+
+#container1 {
+    float:left;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#container2 {
+    float: none;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#float-left {
     float: left;
     padding: 20px;
+}
+
+#float-right {
+    float:right;
+    padding:20px;
 }
 
 .footer {
     position: absolute;
     top: 95%;
-    border-color: teal;
+    border-color: khaki;
     border-style: solid;
     border-width: 0px;
     border-top-width: 5px;
     text-align: center;
-    background-color: gray;
+    background-image: url(../images/white-pattern.png);
+    background-repeat: repeat;
     height: 5%;
     width: 100%;
     padding: 10px;
-    font-size: 10px;
+    font-size: 11px;
+    color: rgb(39, 39, 39);
+    font-weight: bold;
+}
+
+a {
+    color: rgb(39, 39, 39);
+    text-decoration: none;  
 }
 
  a:hover {
-     color: yellowgreen;
- }
-
- a:visited {
-     color: darkslategray;
+     color: darkorange;
  }
 
  a:active {
      color:red;
  }
 
- a {
-     color: darkslateblue;
- }
+ 
